@@ -37,7 +37,7 @@ project:
     - diffusion MRI
     - tractography
     - tractometry
-  github: https://github.com/tractometry/tractometry-ecosystem/
+  github: https://github.com/tractometry/tractometry-ecosystem
   venue: Neurolibre #Production will override this.
   subject: Living Preprint # Production will override this.
   numbering:
@@ -62,22 +62,32 @@ project:
     SLF: Superior Longitudinal Fasciculus
     CSD: Constrained Spherical Deconvolution
     API: Application Programming Interface
-  resources:
-    - content/001-pyafq.ipynb
-    - content/002-viz.ipynb
-    - content/003-BabyAFQ.ipynb
-    - content/004-RecoBundles.ipynb
-    - content/005-Optic-Radiations.ipynb
-    - content/006-Acoustic-Radiations.ipynb
-    - content/007-SLF-Subdivisions.ipynb
-    - content/008-GPU-Tractography.ipynb
-    - content/009-Ray-MSMT.ipynb
-    - content/010-afqinsight-mass-univariate.ipynb
-    - content/011-afqinsight-regression.ipynb
-    - content/012-afqinsight-classification.ipynb
-    - content/013-tractable.ipynb
+  exclude:
+    - metadata/README.md
+    - code/README.md
+    - README.md
+    - paper.md
+    - venv/*
+  toc:
+    - file: index.md
+    - file: content/001-pyafq.ipynb
+    - file: content/002-viz.ipynb
+    - file: content/003-BabyAFQ.ipynb
+    - file: content/004-RecoBundles.ipynb
+    - file: content/005-Optic-Radiations.ipynb
+    - file: content/006-Acoustic-Radiations.ipynb
+    - file: content/007-SLF-Subdivisions.ipynb
+    - file: content/008-GPU-Tractography.ipynb
+    - file: content/009-Ray-MSMT.ipynb
+    - file: content/010-afqinsight-mass-univariate.ipynb
+    - file: content/011-afqinsight-regression.ipynb
+    - file: content/012-afqinsight-classification.ipynb
+    - file: content/013-tractable.ipynb
 site:
   template: book-theme
   options:
     logo: content/tractometry.png
     logo_text: Tractometry
+  actions:
+    - title: Tractometry 
+      url: https://github.com/tractometry
