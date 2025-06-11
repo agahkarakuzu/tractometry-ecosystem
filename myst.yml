@@ -17,7 +17,6 @@ project:
       affiliations: uw
       corresponding: true
       email: arokem@uw.edu
-      twitter: arokem
       equal_contributor: true
       github: arokem
   affiliations:
