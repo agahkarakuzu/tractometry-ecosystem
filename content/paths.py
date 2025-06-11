@@ -1,5 +1,14 @@
 import os
 import os.path as op
+import logging
+
+class WarningFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelno != logging.WARNING
+
+logger = logging.getLogger("AFQ")
+logger.addFilter(WarningFilter())
+logger.setLevel(logging.INFO) 
 
 home = op.join(op.expanduser("~"), "data", "tractometry", "tractometry")
 os.environ["TEMPLATEFLOW_HOME"] = home
