@@ -64,4 +64,7 @@ project:
     - content/012-afqinsight-classification.ipynb
     - content/013-tractable.ipynb
 site:
-  template: book-theme # Or book-theme
+  template: book-theme
+  options:
+    logo: content/tractometry.png
+    logo_text: Tractometry
