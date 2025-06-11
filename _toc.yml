@@ -1,5 +1,5 @@
 format: jb-book
-root: paper.md
+root: index.md
 parts:
   - caption: pyAFQ
     chapters:
@@ -9,7 +9,7 @@ parts:
     - file: content/002-viz
   - caption: Baby AFQ
     chapters:
-    - file: content/003-babyAFQ
+    - file: content/003-BabyAFQ
   - caption: RecoBundles
     chapters:
     - file: content/004-RecoBundles

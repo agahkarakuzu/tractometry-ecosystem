@@ -1,22 +1,7 @@
 ---
-title: 'Computational examples of software for white matter tractometry'
-tags:
-  - Preprint
-  - Jupyter Book
-  - Reproducible article
-  - Neuroscience
-authors:
-  - name: John Kruper
-    affiliation: "1, 2"
-  - name: Ariel Rokem
-    affiliation: "1, 2"
-affiliations:
- - name: Department of Psychology, University of Washington, Seattle, WA, USA
-   index: 1
- - name: eScience Institute, University of Washington, Seattle, WA, USA
-   index: 2
-date: 15 October 2024
-bibliography: paper.bib
+numbering:
+  figure:
+    template: Figure %s
 ---
 
 # Summary
@@ -39,5 +24,3 @@ MH121867, and EB027585, as well as by National Science Foundation grant
 \#1934292. Software development was also supported by the Chan Zuckerberg
 Initiative's Essential Open Source Software for Science program, the Alfred P.
 Sloan Foundation and the Gordon \& Betty Moore Foundation.
-
-# References
