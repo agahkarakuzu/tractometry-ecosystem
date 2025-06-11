@@ -48,7 +48,20 @@ project:
     content: CC-BY-4.0
     code: MIT
   abbreviations:
-    MyST: Markedly Structured Markdown
+    dMRI: Diffusion-weighted magnetic resonance imaging
+    FA: Fractional Anisotropy 
+    OLS: Ordinary Least Squares
+    ALS: Amyotrophic Lateral Sclerosis
+    pyAFQ: Automated Fiber Quantification in Python
+    MSMT-CSD: Multi-Tissue Constrained Spherical Deconvolution
+    DIPY: Diffusion Imaging in Python
+    HBN-POD2: Healthy Brain Network Processed Open Diffusion Derivatives Dataset
+    HBN: Healthy Brain Network
+    ROI: Region of Interest
+    AFQ: Automated Fiber Quantification
+    SLF: Superior Longitudinal Fasciculus
+    CSD: Constrained Spherical Deconvolution
+    API: Application Programming Interface
   resources:
     - content/001-pyafq.ipynb
     - content/002-viz.ipynb
