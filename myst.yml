@@ -1,6 +1,7 @@
 version: 1
 project:
   title: 'A software ecosystem for brain tractometry processing, analysis, and insight'
+  binder: https://terrarium.evidencepub.io
   thebe:
     binder:
       url: https://terrarium.evidencepub.io
